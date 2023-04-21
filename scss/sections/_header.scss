@@ -1,0 +1,22 @@
+.header{
+    h1{
+        color: $verde-fuerte;
+        font-family: $titulo;
+    }
+}
+
+$condicion: "banana";
+
+@if ($condicion== "banana"){
+    .header{
+        h1{
+            background-color: $amarillo;
+        }
+    }
+} @else {
+    .header{
+        h1{
+            background-color: $rojizo;
+        }
+    }
+}

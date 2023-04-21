@@ -1,0 +1,9 @@
+.main-index {
+    .tercera { display: flex;
+        .div-1 {
+            background-color: $verde-lima;
+        }
+        .div-2{background-color: $coral;}
+        .div-3{background-color: $amarillo;}
+    }
+}
